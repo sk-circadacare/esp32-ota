@@ -11,7 +11,7 @@
 #include "cert.h"
 
 String FirmwareVer = {
-  "1.2"
+  "1.1"
 };
 
 const char* ssid = "BTBHub6-KQ3G";//"SKYYFR7E";
