@@ -1,0 +1,4 @@
+WiFiClientSecure
+SSLClient
+HTTPClient
+HTTPUpdate
