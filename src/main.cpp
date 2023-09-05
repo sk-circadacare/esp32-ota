@@ -11,14 +11,14 @@
 #include "cert.h"
 
 String FirmwareVer = {
-  "1.1"
+  "1.2"
 };
 
 const char* ssid = "BTBHub6-KQ3G";//"SKYYFR7E";
 const char* password = "ih9qRwYtRUth";//"5VBsuZjj5Ppx";
-#define URL_fw_Version "http://raw.githubusercontent.com/circadacare-uk/esp32-OTA/main/bin_version.txt?token=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"
+#define URL_fw_Version "https://raw.githubusercontent.com/sk-circadacare/esp32-ota/main/bin_version.txt"
 //#define URL_fw_Version "https://github.com/circadacare-uk/esp32-OTA/blob/main/bin_version.txt"
-#define URL_fw_Bin "https://github.com/circadacare-uk/esp32-OTA/blob/main/.pio/build/esp32doit-devkit-v1/firmware.bin"
+#define URL_fw_Bin "https://github.com/sk-circadacare/esp32-ota/blob/main/.pio/build/esp32doit-devkit-v1/firmware.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
